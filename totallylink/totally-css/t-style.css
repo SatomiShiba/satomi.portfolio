@@ -1,0 +1,136 @@
+body{
+box-sizing:border-box;
+font-family: 'Arial',"Sawarabi Gothic",'DIN Condensed',ヒラギノ角ゴ,メイリオ;
+font-size:100%;
+color:#383027;
+}
+
+p{
+letter-spacing:1.2px;
+font-size:94%;
+line-height:1.4;
+}
+
+/*** header ***/
+nav{
+width:90%;
+height:53px;
+padding-top:20px;
+margin:0 auto;
+}
+
+
+.contents{
+display:flex;
+width:100%;
+justify-content:flex-end;
+}
+.contents a{
+margin-left:2%;
+
+}
+
+.a1{
+display:inline-block;
+text-align:right;
+width:60px;
+}
+
+.a2{
+display:inline-block;
+text-align:right;
+width:72px;
+}
+
+.a3{
+width:56px;
+}
+
+.contents a li img{
+width:100%;
+
+}
+
+/*** main pc ***/
+.wrapper{
+width:90%;
+margin:10% auto;
+text-align:center;
+}
+
+.wrapper h1,.wrapper a{
+margin:0 auto;
+text-align:center;
+}
+
+.wrapper h1{
+margin-bottom:1%;
+border-bottom:dashed 1px #383027;
+width:30%;
+padding-bottom:0.8%;
+}
+
+.wrapper a{
+display:inline-block;
+margin:1% 0 10% 0;
+padding:1% 1%;
+border-radius:8px;
+}
+
+.wrapper a:hover{
+background-color:rgba(209,115,61,0.9);
+transition:0.5s;
+}
+
+
+.wrapper h2{
+font-size:144%;
+}
+
+.pc{
+text-align:center;
+margin-bottom:15%;
+}
+
+.pc img{
+border:solid 1px #D5D3D3;
+width:100%;
+}
+
+.pc p{
+margin-top:5%;
+text-align:left;
+}
+
+.pc p::before{
+content:"▲";
+}
+
+.pc p span{
+font-size:113%;
+font-weight:bold;
+color:#D5845B;
+}
+
+/*** main sp ***/
+.sp{
+text-align:center;
+}
+
+
+.sp p::before{
+content:"▼";
+}
+
+.sp img{
+width:100%;
+}
+
+/*** footer ***/
+footer p{
+padding:2% 0;
+text-align:center;
+font-size:63%;
+background-color:#383027;
+color:white;
+}

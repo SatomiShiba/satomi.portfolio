@@ -1,0 +1,227 @@
+body{
+box-sizing:border-box;
+font-family: 'Arial',"Sawarabi Gothic",'DIN Condensed',ヒラギノ角ゴ,メイリオ;
+font-size:100%;
+color:#383027;
+}
+
+header,footer{
+width:100%;
+}
+
+.works,.about{
+width:90%;
+margin:0 auto;
+}
+
+section h2{
+font-size:150%;
+text-align:center;
+margin-top:80px;
+margin-bottom:30px;
+}
+/*** ヘッダー ***/
+
+nav{
+width:90%;
+height:53px;
+padding-top:20px;
+margin:0 auto;
+}
+
+.contents{
+display:flex;
+width:100%;
+justify-content:flex-end;
+}
+.contents a{
+margin-left:2%;
+
+}
+
+.a1{
+display:inline-block;
+text-align:right;
+width:60px;
+}
+
+.a2{
+display:inline-block;
+text-align:right;
+width:72px;
+}
+
+.a3{
+width:56px;
+}
+
+.contents a li img{
+width:100%;
+
+}
+
+.top-img{
+position:relative;
+}
+
+.main-visual img{
+width:100%;
+height:500px;
+object-fit:cover;
+
+}
+
+/*** イメージ上配置 ***/
+.onimg{
+position:absolute;
+left:10%;
+bottom:30%;
+}
+
+.onimg img{
+width:80%;
+}
+
+/*** works ***/
+
+
+.works-list p{
+font-size:88%;
+}
+
+.works-list img{
+width:100%;
+}
+
+.works-text{
+margin-top:2%;
+margin-bottom:10%;
+}
+
+.works-text h3{
+display:inline-block;
+border-bottom:solid #D5D1BB 4px;
+margin-bottom:1.7%;
+padding-bottom:0.2%;
+font-weight:bold;
+}
+
+.works-text h3::before{
+content:"▶";
+}
+
+/*** about ***/
+.about{
+margin-bottom:10%;
+}
+
+.about h2{
+margin-bottom:8%;
+}
+
+.about h3,.about h2,.self-introduction{
+letter-spacing:3px;
+padding-bottom:1%;
+}
+
+.about h3{
+border-bottom:solid #262626 2px;
+display:inline-block;
+}
+ 
+.self-introduction{
+font-size:88%;
+}
+
+.self-introduction p{
+margin:2% 0 6% 0;
+}
+
+.self-introduction h4{
+border-bottom:solid #262626 2px;
+display:inline-block;
+font-size:1rem;
+}
+
+.skill{
+display:flex;
+margin-top:1%;
+}
+
+.skill p{
+margin-left:5%;
+}
+
+.sk{
+line-height:38px;
+color:#DBC689;
+
+}
+
+.sk::before{
+content:"■";
+}
+
+/*** contact ***/
+.contact{
+text-align:center;
+padding-top:3%;
+padding-bottom:7%;
+background-color:#D8B785;
+
+}
+
+.contact h2{
+margin-bottom:4%;
+margin-top:0;
+}
+
+.contact p{
+font-size:88%;
+}
+
+.contact dl{
+margin-top:2%;
+font-size:82%;
+
+}
+
+.con{
+display:flex;
+margin:0 auto;
+justify-content:center;
+display:block;
+}
+
+.con dt{
+width:25px;
+display:inline-block;
+text-align:left;
+}
+
+.con dd{
+width:36%;
+margin-left:0px;
+display:inline-block;
+text-align:left;
+margin-left:2%;
+}
+
+/*** footer ***/
+footer p{
+padding:2% 0;
+text-align:center;
+font-size:63%;
+background-color:#383027;
+color:white;
+}
+
+
+
+
+
+
+
+
+
+

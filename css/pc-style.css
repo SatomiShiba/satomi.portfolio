@@ -1,0 +1,66 @@
+@media screen and (min-width:1025px){
+
+.works,.about{
+max-width:1000px;
+}
+
+.works a h2,.about h2{
+margin:14% 0 8% 0;
+}
+
+.works ul{
+display:flex;
+}
+
+.works-list{
+width:33%;
+position:relative;
+}
+
+.lis{
+margin-right:4%;
+}
+
+
+.works-list a{
+display:inline-block;
+width:100%;
+}
+
+.works-list img{
+
+}
+
+
+.works-text{
+position:absolute;
+top:22%;
+left:10%;
+width:80%;
+text-align:center;
+color:white;
+background-color:rgba(124,171,22,0.5);
+padding-bottom:3%;
+}
+
+.works-list:hover{
+opacity:0.8;
+}
+
+.works-text h3{
+margin-top:4%;
+margin-bottom:3%;
+font-size:88%;
+border-bottom:solid #045FB4 4px;
+}
+
+.works-text h3::before{
+color:#0B3861;
+}
+
+.works-text p{
+font-size:75%;
+}
+
+
+}
