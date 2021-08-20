@@ -1,0 +1,39 @@
+@media screen and (min-width:896px){
+
+/*** ヘッダー ***/
+.header-wrapper{
+border-bottom:solid 1px #c3c3c3;
+padding-bottom:2%;
+margin-bottom:4.5%;
+}
+
+nav{
+white-space:normal;
+overflow-x: hidden;
+overflow-y: hidden;
+
+}
+
+/*** メイン ***/
+main{
+display:flex;
+padding:0 5%;
+}
+
+.main-visual{
+width:400px;
+height:500px;
+width:50%;
+}
+
+.main-visual img{
+width:400px;
+height:500px;
+}
+
+.ploduct{
+width:50%;
+margin-left:6%;
+}
+
+}

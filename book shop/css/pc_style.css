@@ -1,0 +1,95 @@
+@media screen and (min-width:768px){
+.info{ 
+display:flex;
+margin-bottom:5%;
+}
+
+.back{
+width:50%;
+height:0;
+padding-bottom: 50%;
+position:relative;
+}
+
+.b1{
+margin-right:2%;
+}
+
+.fa_st{
+margin-bottom:8%;
+}
+
+.catalog{
+display:flex;
+margin-bottom:9%;
+}
+
+.ca-img{
+width:50%;
+}
+
+.ca-text{
+width:50%;
+margin-left:4%;
+}
+
+.antique{
+display:flex;
+padding-bottom:2%;
+}
+
+.an-text{
+width:50%;
+margin:0;
+}
+
+.ca-text h1,.an-text h1{
+margin:12% 0 8% 0;
+}
+
+.an-text a{
+margin-top:6%;
+}
+
+.an-img{
+width:50%;
+margin-left:4%;
+
+}
+
+.shop-wrapper{
+display:flex;
+padding:8% 4% 8% 4%;
+
+}
+
+shop-wrapper h4{
+margin-bottom:5%;
+
+}
+
+.shop-logo{
+width:33%;
+position:relative;
+
+}
+
+.shop-logo h3{
+position:absolute;
+top:35%;
+left:0;
+}
+
+.shop-list{
+width:33%;
+}
+
+.shop-list li{
+margin-bottom:3%;
+}
+
+.shop-text{
+width:33%;
+}
+}
+
