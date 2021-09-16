@@ -75,6 +75,9 @@ display:inline-block;
 margin:1% 0 10% 0;
 padding:1% 1%;
 border-radius:8px;
+border-bottom:2px solid #424242;
+background-color:#AD9EDB;
+color:#D6D285;
 }
 
 .wrapper a:hover{
