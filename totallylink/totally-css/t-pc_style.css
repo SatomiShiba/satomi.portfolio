@@ -15,6 +15,9 @@ background-color:rgba(209,115,61,0.9);
 transition:0.5s;
 }
  
+ .none {
+display:none}
+ 
 /** pc **/
 
 .pc{
