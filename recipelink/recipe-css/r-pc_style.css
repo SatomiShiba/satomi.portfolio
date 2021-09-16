@@ -15,6 +15,9 @@ background-color:#4A735A;
 transition:0.5s;
 }
 
+ .none {
+display:none}
+ 
 /** pc **/
 
 .pc{
