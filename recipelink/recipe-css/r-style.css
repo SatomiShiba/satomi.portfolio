@@ -76,14 +76,10 @@ margin:1% 0 10% 0;
 padding:1% 1%;
 border-radius:8px;
 border-bottom:2px solid #424242;
-background-color:#B8E0C7;
+background-color:#4A735A;
 color:#8A2E5C;
 }
 
-.wrapper a:hover{
-background-color:rgba(54,117,47,0.4);
-transition:0.5s;
-}
 
 
 .wrapper h2{
