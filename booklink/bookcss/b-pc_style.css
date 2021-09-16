@@ -14,7 +14,11 @@ color:#D6D285;
 background-color:rgba(14,14,117,0.6);
 transition:0.5s;
 }
+ 
+.none {
+display:none}
 
+ 
 /** pc **/
 
 .pc{
