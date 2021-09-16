@@ -72,12 +72,21 @@ padding-bottom:0.8%;
 
 .wrapper a{
 display:inline-block;
-margin:1% 0 10% 0;
+margin:1% 0 0 0;
 padding:1% 1%;
 border-radius:8px;
 border-bottom:2px solid #424242;
 background-color:rgba(14,14,117,0.6);
 color:#D6D285;
+}
+
+.wrapper p{
+font-size:63%;
+margin-bottom:10%;
+}
+
+.wrapper p::before{
+content:"▲";
 }
 
 
