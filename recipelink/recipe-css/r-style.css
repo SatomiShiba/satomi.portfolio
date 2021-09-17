@@ -78,7 +78,8 @@ padding:0.5% 2%;
 border-radius:4px;
 background-color:#4A735A;
 color:#8A2E5C;
-font-size:75%;
+font-size:94%;
+font-weight:bold;
 }
 
 .none{
@@ -90,9 +91,6 @@ margin-bottom:10%;
 content:"▲";
 }
 
-.wrapper h2{
-font-size:144%;
-}
 
 .pc{
 text-align:center;
