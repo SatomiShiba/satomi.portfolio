@@ -16,7 +16,8 @@ transition:0.5s;
 }
 
 .none {
-display:none}
+display:none;
+}
 
 /** pc **/
 
@@ -41,4 +42,6 @@ line-height:2;
 font-size:163%;
 font-weight:bold;
 color:#08298A;
+}
+
 }
