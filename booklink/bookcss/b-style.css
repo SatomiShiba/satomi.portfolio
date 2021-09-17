@@ -78,7 +78,8 @@ padding:0.5% 2%;
 border-radius:4px;
 background-color:rgba(14,14,117,0.6);
 color:#D6D285;
-font-size:82%;
+font-size:94%;
+font-weight:bold;
 }
 
 .none{
@@ -88,10 +89,6 @@ margin-bottom:10%;
 
 .none::before{
 content:"▲";
-}
-
-.wrapper h2{
-font-size:144%;
 }
 
 .pc{
