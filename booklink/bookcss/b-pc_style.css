@@ -1,6 +1,6 @@
 @media screen and (min-width:1025px){
 
- .wrapper a{
+.wrapper a{
 display:inline-block;
 margin:1% 0 10% 0;
 padding:1% 1%;
@@ -14,12 +14,10 @@ color:#D6D285;
 background-color:rgba(14,14,117,0.6);
 transition:0.5s;
 }
- 
-.none {
-display:none;
- }
 
- 
+.none {
+display:none}
+
 /** pc **/
 
 .pc{
