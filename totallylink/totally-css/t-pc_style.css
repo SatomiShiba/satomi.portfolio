@@ -1,11 +1,11 @@
 @media screen and (min-width:1025px){
 
 .wrapper a{
-display:inline-block;
-margin:1% 0 10% 0;
-padding:1% 1%;
-border-radius:8px;
-border-bottom:2px solid #424242;
+display:block;
+width:20%;
+margin:0 auto;
+margin-bottom:7%;
+padding:0.3% 0.8%;
 background-color:#E4B4AA;
 color:#3A5C1F;
 }
@@ -14,11 +14,11 @@ color:#3A5C1F;
 background-color:rgba(209,115,61,0.9);
 transition:0.5s;
 }
- 
- .none {
+
+.none {
 display:none;
- }
- 
+}
+
 /** pc **/
 
 .pc{
@@ -42,4 +42,5 @@ line-height:2;
 font-size:163%;
 font-weight:bold;
 color:#866235;
+}
 }
