@@ -6,16 +6,16 @@ width:20%;
 margin:0 auto;
 margin-bottom:7%;
 padding:0.3% 0.8%;
-background-color:#B8E0C7;
-color:#8A2E5C;
- box-shadow: 5px 5px 5px rgba(0,0,0,0.3); 
+background-color:#E3E4AF;
+color:#2B823A;
+box-shadow: 5px 5px 5px rgba(0,0,0,0.3); 
 }
 
 .wrapper a:hover{
-background-color:#4A735A;
+background-color:#C9BD5E;
 transition:0.5s;
 }
-
+ 
 .none {
 display:none}
 
